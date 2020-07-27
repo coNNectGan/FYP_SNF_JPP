@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.snf_jpp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconsnf"
+        android:label="@string/SnFJPP"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.snf_jpp.complainer.guideActivity"></activity>
+        <activity android:name="com.example.snf_jpp.fixPicPage" />
+        <activity android:name="com.example.snf_jpp.technician.technicianReportPage" />
+        <activity android:name="com.example.snf_jpp.technician.technicianWorkActivity" />
+        <activity android:name="com.example.snf_jpp.allReportPage" />
+        <activity android:name="com.example.snf_jpp.officer.officerDashBoard" />
+        <activity android:name="com.example.snf_jpp.NeedHelpActivity" />
+        <activity android:name="com.example.snf_jpp.users.aboutUsActivity" />
+        <activity android:name="com.example.snf_jpp.complainer.complaintReportPage" />
+        <activity android:name="com.example.snf_jpp.complainer.complainerAddComplaintActivity" />
+        <activity android:name="com.example.snf_jpp.complainer.complainerDashBoard" />
+        <activity android:name="com.example.snf_jpp.technician.technicianDashBoard" />
+        <activity android:name="com.example.snf_jpp.complainer.complainerLogin" />
+        <activity android:name="com.example.snf_jpp.officer.officerLogin" />
+        <activity android:name="com.example.snf_jpp.technician.technicianLogin" />
+        <activity android:name="com.example.snf_jpp.AddTaskActivity" />
+        <activity android:name="com.example.snf_jpp.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DashBoardActivity" />
+        <activity android:name="com.example.snf_jpp.RegisterActivity" />
+        <activity android:name="com.example.snf_jpp.MainActivity" />
+        <activity android:name="com.example.snf_jpp.LoginActivity" />
+    </application>
+
+</manifest>

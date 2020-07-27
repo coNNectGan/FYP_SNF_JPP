@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <!--Logo-->
+    <!--StaffID-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="381dp"
+        android:layout_height="311dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@mipmap/officeraccount" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Login as Officer" />
+
+    <EditText
+        android:id="@+id/staffidED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="StaffID"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+    <!--Password-->
+    <EditText
+        android:id="@+id/passwordED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:padding="10dp" />
+    <!--Login-->
+    <Button
+        android:id="@+id/BTNLogin"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFF"
+        android:text="Login" />
+    <!--checkbox-->
+    <CheckBox
+        android:id="@+id/checkBoxRme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember Me" />
+    <!--ForgotPassword-->
+    <TextView
+        android:id="@+id/textViewForgotP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Forgot Password?" />
+
+
+
+</LinearLayout>
